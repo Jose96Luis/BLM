@@ -15,6 +15,7 @@
 		29EF9A88283DC241005D98E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EF9A86283DC241005D98E8 /* LaunchScreen.storyboard */; };
 		29EF9A91283DC267005D98E8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 29EF9A90283DC267005D98E8 /* Alamofire */; };
 		29EF9A94283DC367005D98E8 /* NetWorkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF9A93283DC367005D98E8 /* NetWorkingProvider.swift */; };
+		D6DF83CE283E9ED00022F061 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DF83CD283E9ED00022F061 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		29EF9A87283DC241005D98E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29EF9A89283DC241005D98E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EF9A93283DC367005D98E8 /* NetWorkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkingProvider.swift; sourceTree = "<group>"; };
+		D6DF83CD283E9ED00022F061 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 		29EF9A7A283DC23F005D98E8 /* BLM */ = {
 			isa = PBXGroup;
 			children = (
-				29EF9A92283DC31A005D98E8 /* New Group */,
+				29EF9A92283DC31A005D98E8 /* NetworkProvider */,
 				29EF9A7B283DC23F005D98E8 /* AppDelegate.swift */,
 				29EF9A7D283DC23F005D98E8 /* SceneDelegate.swift */,
+				D6DF83CD283E9ED00022F061 /* ScannerViewController.swift */,
 				29EF9A7F283DC23F005D98E8 /* ViewController.swift */,
 				29EF9A81283DC23F005D98E8 /* Main.storyboard */,
 				29EF9A84283DC241005D98E8 /* Assets.xcassets */,
@@ -72,12 +75,12 @@
 			path = BLM;
 			sourceTree = "<group>";
 		};
-		29EF9A92283DC31A005D98E8 /* New Group */ = {
+		29EF9A92283DC31A005D98E8 /* NetworkProvider */ = {
 			isa = PBXGroup;
 			children = (
 				29EF9A93283DC367005D98E8 /* NetWorkingProvider.swift */,
 			);
-			path = "New Group";
+			path = NetworkProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +163,7 @@
 				29EF9A80283DC23F005D98E8 /* ViewController.swift in Sources */,
 				29EF9A7C283DC23F005D98E8 /* AppDelegate.swift in Sources */,
 				29EF9A94283DC367005D98E8 /* NetWorkingProvider.swift in Sources */,
+				D6DF83CE283E9ED00022F061 /* ScannerViewController.swift in Sources */,
 				29EF9A7E283DC23F005D98E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +328,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,7 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
